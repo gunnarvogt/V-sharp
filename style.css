@@ -1,0 +1,94 @@
+@font-face{
+    src: url(fonts/Domine-VariableFont_wght.ttf);
+    font-family: figtree;
+}
+body{
+    margin:0px;
+    background-color: #d8d8d8;
+    font-family: figtree;
+/*
+    background-image: url(Images/Website\ background\ \(gray\)\(png\).png), url(Images/Website\ background\ \(purple\)\(png\).png);
+    background-size: cover, cover;
+*/
+}
+
+p{
+    font-family: figtree;
+}
+
+/* Header */
+
+.headerContainer{
+    width:100%;
+    aspect-ratio: 2.4;
+    overflow:hidden;
+}
+
+.headerContainer #header{
+    width: 80%;
+    display:flex;
+    margin:auto;
+    margin-top: .5vw;
+    margin-bottom: 0px;
+}
+
+
+/* Pricing table */
+
+#pricingHeader{
+    display:flex;
+    margin:auto;
+    justify-content:center;
+}
+
+.tableContainer{
+    background-color:#3B3B3C;
+    color:#d8d8d8;
+    margin:4vw;
+    margin-bottom: 0;
+    padding: 2vw;
+    border-radius: 5px;
+}
+
+.table{
+    width:98%;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+}
+.column{
+    width:49%;
+    margin: auto;
+}
+
+.nest{
+    border: 1px solid;
+    display:flex;
+    justify-content: center;
+    padding:1vw;
+    margin: 1vw;
+}
+
+.column .nest tr{
+    text-align:center;
+}
+
+.column .nest td{
+    padding:1vw;
+}
+
+@media (max-width:600px) {
+    .table{
+    flex-direction: column;
+    }
+    .column{
+        width:98%;
+    }
+}
+
+.footer{
+    background-color:#512D82;
+    margin:4vw;
+    padding-bottom:20%;
+    border-radius: 5px;
+}
