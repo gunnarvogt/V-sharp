@@ -7,7 +7,7 @@ body {
   background-color: #d8d8d8;
   font-family: figtree, Arial;
   background-image: url(Images/background.webp);
-  background-size: cover,cover
+  background-size: cover;
 }
 .headerContainer {
   width: 100%;
